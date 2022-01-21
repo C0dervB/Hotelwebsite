@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar h2{
+    float: none;
+    text-align: center;
+}
+
+.navbar ul{
+    float: none;
+}
+.navbar ul li{
+    float:none;
+}
+.navbar ul li a{
+    padding:0.5rem;
+    border:1px dotted gray;
+}
+
+.hinfo{
+    height:400px;
+}
+.hinfo .hinfo-img{
+    display: none;
+}
+.hinfo .hinfo-content{
+    float:none;
+    text-align: center;    
+    padding:20px,20px;
+    width:100%;
+    min-height:100%;
+    }
+    .hinfo .hinfo-content p{
+        font-size: 15px;
+        color:beige;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left:10px;
+        padding-right: 10px;
+        
+    }
+    
+   .ft{
+       min-height:1200px;
+   } 
+
+    
+    .features .box{
+        float:none;
+        width:100%;
+         }
+         
+    
+   
+
+    
+    

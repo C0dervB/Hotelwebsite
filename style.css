@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+.navbar{
+    background-color: black;
+    overflow:auto;
+    
+}
+
+a{
+    color:beige;
+    text-decoration: none;
+}
+h2{
+    color: beige;
+    padding: 15px;
+}
+.navbar h2{
+    float: left;
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display:block;
+    padding: 20px;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    background-color:silver;
+    color:brown;
+}
+.welp{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    overflow: auto;
+    height: 450px;
+    text-align: center;
+    padding-top:100px;
+    line-height: 1.2em;
+}
+.welp p{
+    padding:40px;
+    color:black;
+    
+}
+.welp h2{
+    font-size: 40px;
+
+}
+ .btn {
+     display:inline-block;
+    background-color: black;
+    padding:10px;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color:silver;
+    color:blueviolet
+}
+.clr{
+color:coral;
+}
+.hinfo{
+    height:400px;
+}
+.hinfo .hinfo-img{
+    float:left;
+    width:50%;
+    background:url('../img/pexels-balaji-srinivasan-7915324.jpg') no-repeat center center/cover  ;
+    min-height:100%;
+}
+.hinfo .hinfo-content{
+float:right;
+text-align: center;    
+padding:20px,20px;
+width:50%;
+min-height:100%;
+}
+.hinfo .hinfo-content p{
+    font-size: 15px;
+    color:beige;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    
+}
+.bg-dk{
+    background-color: black;
+}
+.btn-lt{
+    background-color: aliceblue;
+    color: black;
+    padding:7px;
+    
+}
+.features{
+    height:400px;
+}
+.features h2{
+    color:black
+}
+.features .box{
+    float:left;
+    width:33.3%;
+    padding: 60px;
+    min-height:100%;
+    text-align: center;
+}
+
+.bg-gym{
+    background-color: brown;
+    color:white;
+}
+.clr{
+    clear:both;
+}
+.ftr{
+    background: #444;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
